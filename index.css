@@ -1,0 +1,89 @@
+body {
+    background-color: #2c3e50;
+    color: honeydew;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.container {
+    text-align: center;
+    top: 10px;
+}
+
+.js-clock {
+    font-size: 60px;
+}
+
+.js-toDoList {
+    font-size: 20px;
+}
+
+.js-greetings {
+    font-size: 45px;
+    margin: 10px;
+    display: inline-flex;
+}
+
+.delBtn {
+    background-color: transparent;
+    border: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.input-name,
+.input-toDoList {
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.js-greetings:hover,
+.js-clock:hover {
+    color: orange;
+    cursor: pointer;
+}
