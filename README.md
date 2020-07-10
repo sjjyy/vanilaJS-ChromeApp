@@ -1,5 +1,7 @@
 ## vanilaJS-ChromeApp
 
-바닐라JS로 크롬 모멘텀 만들기
-https://nomadcoders.co/javascript-for-beginners/lectures/1472
+* vanila JS로 크롬 모멘텀 만들기
+
+## 출처
+* https://nomadcoders.co/javascript-for-beginners/lectures/1472
 
