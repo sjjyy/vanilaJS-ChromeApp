@@ -7,3 +7,5 @@
 
 ## 결과물
 * https://sjjyy.github.io/vanilaJS-ChromeApp/
+
+## 학습 내용 정리
